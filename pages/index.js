@@ -21,14 +21,15 @@ export default function Home() {
       className="w-full h-20 sticky top-0 z-10 items-center flex justify-between p-6 flex-row">
         {Icon()}
         <div className="flex-row flex space-x-8">
+          <p 
+          className="text-3xl text-sunglo-300 block sm:hidden "><i class="fas fa-bars"></i></p>
         </div>
       </header>
-      <div className="mt-2 sm:mt-0">
+      <div className="sm:mt-0">
         <div className="flex-col sm:flex-row flex sm:space-x-12">
       <div 
-      style={{height: 'calc(100vh - 81px)'}}
-      className="w-full sm:w-1/2 max-h-xl h-full 
-      sticky top-0
+      className="w-full sm:w-1/2 max-h-xl sm:h-screen h-full 
+      
       bg-gray-100 animate__animated 
       shadow-lg animate-fade-in-down overflow-hidden">
         <img
@@ -43,10 +44,13 @@ export default function Home() {
         className="text-3xl mt-6 sm:text-5xl font-muli font-extrabold tracking-tighter">
         Ayurvedic Growth Oil
         </h1>
+        <h1 
+        className="text-md sm:text-2xl font-muli font-bold tracking-tighter mt-2 sm:mt-6">
+        $24.99 
+        </h1>
         <p 
-        style={{lineHeight: 1.9}}
-        className="xl:text-xl lg:text-lg text-md font-muli mt-6 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
-        <div className="justify-end w-full flex">
+        className="xl:text-xl lg:text-lg text-md font-muli mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
+        <div className="justify-end w-full flex mb-12">
         <button 
         className="mt-8 font-muli
         font-semibold

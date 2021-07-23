@@ -5,6 +5,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'sunglo': {
+          DEFAULT: '#E57067',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FBEBEA',
+          '300': '#F4C2BE',
+          '400': '#EC9993',
+          '500': '#E57067',
+          '600': '#DE473B',
+          '700': '#C42D22',
+          '800': '#99231A',
+          '900': '#6D1913'
+        },
         'primary': {
           DEFAULT: '#089494',
           '50': '#89F9F9',
