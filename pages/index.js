@@ -17,8 +17,8 @@ export default function Home() {
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
       <header 
-      style={{background: '#4f6866'}}
-      className="w-full h-24 sticky top-0 z-10 items-center flex justify-between p-6 flex-row">
+      style={{background: '#089494'}}
+      className="w-full h-20 sticky top-0 z-10 items-center flex justify-between p-6 flex-row">
         {Icon()}
         <div className="flex-row flex space-x-8">
           <p className="text-2xl font-bold font-muli text-white"><i class="fas fa-shopping-cart mr-2"></i>  ·  1</p>
@@ -27,7 +27,7 @@ export default function Home() {
       <div className="mt-2 sm:mt-0">
         <div className="flex-col sm:flex-row flex sm:space-x-12">
       <div 
-      style={{height: 'calc(100vh - 96px)'}}
+      style={{height: 'calc(100vh - 81px)'}}
       className="w-full sm:w-1/2 max-h-xl h-full 
       sticky top-0
       bg-gray-100 animate__animated 
@@ -54,14 +54,14 @@ export default function Home() {
         hover:shadow-lg
         text-md
         mr-6
-        hover:bg-primary-600
+        hover:bg-primary-400
         text-white
         bg-primary
         transition duration-300 ease-in-out hover:scale-105
         p-6"><i class="fas fa-cart-plus mr-2"></i>ADD TO CART</button>
         <button 
         className="mt-8 font-muli
-        hover:bg-primary-600
+        hover:bg-primary-400
         font-semibold
         hover:shadow-lg
         text-white
@@ -82,8 +82,8 @@ function Icon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="52"
-      height="52"
+      width="48"
+      height="48"
       fill="none"
       viewBox="0 0 116 123"
     >
