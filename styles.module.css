@@ -1,0 +1,12 @@
+.fadeDown {
+    animation: fadeInText 300ms 0ms forwards;
+  }
+  @keyframes fadeInText {
+    from {
+      transform: translate(0%, -10%);
+      opacity: 0;
+    } to {
+      transform: translate(0%, -0%);
+      opacity: 1;
+    }
+  }
