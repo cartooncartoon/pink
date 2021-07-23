@@ -49,7 +49,14 @@ export default function Home() {
         $24.99 
         </h1>
         <p 
-        className="xl:text-xl lg:text-lg text-md font-muli mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
+        className="xl:text-xl lg:text-lg text-md font-muli mt-6">
+          This product uses the strength of herbs to stimulate hair growth and reduce hair
+loss. Its key ingredients are amla, neem, sesame, and fenugreek. It also contains
+MSM and Ginseng. This product is the ultimate hair growth tonic.
+Apply this product 3-4 times a week with a gentle scalp massage. Results can be
+seen within 3-4 weeks of consistent use. Herbs may settle at the bottom of bottle,
+please shake before use.
+        </p>
         <div className="justify-end w-full flex mb-12">
         <button 
         className="mt-8 font-muli
