@@ -27,11 +27,13 @@ export default function Home() {
       <div className="mt-2 sm:mt-0">
         <div className="flex-col sm:flex-row flex sm:space-x-12">
       <div 
-      style={{height: 'calc(100vh - 48px)'}}
-      className="w-full sm:w-1/2 max-h-xl h-full bg-gray-100 animate__animated 
+      style={{height: 'calc(100vh - 96px)'}}
+      className="w-full sm:w-1/2 max-h-xl h-full 
+      sticky top-0
+      bg-gray-100 animate__animated 
       shadow-lg animate-fade-in-down overflow-hidden">
         <img
-        className="object-left-bottom" 
+        className="xl:object-left-bottom object-center" 
         style={{width: '100%', height: '100%', objectFit: 'cover'}}
         width="100%" height="100%" src="/mock1.png" />
       </div>
@@ -43,7 +45,8 @@ export default function Home() {
         Ayurvedic Growth Oil
         </h1>
         <p 
-        className="text-xl font-muli mt-6 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
+        style={{lineHeight: 1.9}}
+        className="xl:text-xl lg:text-lg text-md font-muli mt-6 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
         <div className="justify-end w-full flex">
         <button 
         className="mt-8 font-muli
