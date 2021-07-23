@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="max-h-screen">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Pink Herb</title>
+        <link rel="icon" href="/PHArtboard 61.png" />
         <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -21,40 +21,52 @@ export default function Home() {
       className="w-full h-24 sticky top-0 z-10 items-center flex justify-between p-6 flex-row">
         {Icon()}
         <div className="flex-row flex space-x-8">
+          <p className="text-2xl font-bold font-muli text-white"><i class="fas fa-shopping-cart mr-2"></i>  ·  1</p>
         </div>
       </header>
-      <div className="p-6 mt-2 am:mt-6">
+      <div className="mt-2 sm:mt-0">
         <div className="flex-col sm:flex-row flex sm:space-x-12">
       <div 
-      style={{height: 750}}
+      style={{height: 'calc(100vh - 48px)'}}
       className="w-full sm:w-1/2 max-h-xl h-full bg-gray-100 animate__animated 
       shadow-lg animate-fade-in-down overflow-hidden">
-        <img 
+        <img
+        className="object-left-bottom" 
         style={{width: '100%', height: '100%', objectFit: 'cover'}}
         width="100%" height="100%" src="/mock1.png" />
       </div>
       <div 
       style={{height: 600}}
-      className="w-full sm:w-1/2 max-h-xl h-full animate__fadeIn animate__animated">
+      className="w-full sm:w-1/2 max-h-xl h-full animate-fade-in-up animate__animated p-6">
         <h1 
-        className="text-3xl mt-6 sm:mt-0 sm:text-5xl font-muli font-extrabold tracking-tighter">
+        className="text-3xl mt-6 sm:text-5xl font-muli font-extrabold tracking-tighter">
         Ayurvedic Growth Oil
         </h1>
         <p 
         className="text-xl font-muli mt-6 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed facilisis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pharetra tempus velit, quis dignissim justo. Vivamus sollicitudin tempus mi, eget volutpat tellus sodales imperdiet. Etiam vitae cursus tortor. Praesent at nibh eget erat fringilla rhoncus. Maecenas euismod lacus sed porttitor accumsan. Phasellus a posuere arcu. Duis at purus erat. Fusce accumsan, nulla sit amet commodo accumsan, lacus orci consectetur felis, eget luctus est felis ut velit. In finibus, eros quis dictum feugiat, tortor diam fringilla sapien, ut tincidunt enim neque quis tellus. Cras posuere nisi eget orci tempus ornare.</p>
         <div className="justify-end w-full flex">
         <button 
-        className="h-20 mt-6 font-muli
+        className="mt-8 font-muli
         font-semibold
-        text-lg
+        hover:shadow-lg
+        text-md
+        mr-6
+        hover:bg-primary-600
+        text-white
+        bg-primary
         transition duration-300 ease-in-out hover:scale-105
         p-6"><i class="fas fa-cart-plus mr-2"></i>ADD TO CART</button>
         <button 
-        className="h-20 mt-6 font-muli
+        className="mt-8 font-muli
+        hover:bg-primary-600
         font-semibold
-        text-lg
+        hover:shadow-lg
+        text-white
+        bg-primary
+        text-md
         transition duration-300 ease-in-out hover:scale-105
         p-6"><i class="fas fa-users mr-2"></i>SHARE</button>
+        
         </div>
       </div>
       </div>
